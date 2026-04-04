@@ -140,21 +140,3 @@ print("[Saved digit_clusters.png]")
 # =========================================
 # 4. Comparison Analysis (Comments)
 # =========================================
-<!-- 
-"""
-=== Comparison Analysis ===
-
-1. Did KMeans perfectly match digit classes?
-No. KMeans does not know true labels. It groups based on similarity, so
-clusters may mix digits (e.g., 3, 8, 9 look similar).
-
-2. What does supervised classification give that clustering cannot?
-- Exact predictions using labeled data
-- Accuracy, precision, recall
-- Clear mapping between input and output
-
-3. What can clustering tell that supervised cannot?
-- Hidden structure in data
-- Natural groupings without labels
-- Useful for exploring unknown datasets
-""" -->
